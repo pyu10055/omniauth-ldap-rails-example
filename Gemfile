@@ -8,6 +8,11 @@ gem 'rails', '3.1.3'
 gem 'sqlite3'
 gem 'omniauth-ldap', :git => 'git://github.com/intridea/omniauth-ldap.git'
 gem 'linecache19', 'http://rubyforge.org/frs/download.php/75414/linecache19-0.5.13.gem'
+
+# Needed for windows : .bundle/config ( C:\Ruby193 is the dir from the Ruby Installer )
+# ---
+# BUNDLE_BUILD__RUBY-DEBUG-BASE19: --with-ruby-include=C:\Ruby193\include\ruby-1.9.1\ruby-1.9.3-p0
+
 gem 'ruby-debug-base19', 'http://rubyforge.org/frs/download.php/75415/ruby-debug-base19-0.11.26.gem'
 gem 'ruby-debug19', :require => [ 'linecache19', 'ruby-debug-base19' ]
 
