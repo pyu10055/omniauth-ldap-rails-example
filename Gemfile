@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
-source 'https://gems.gemfury.com/8n1rdTK8pezvcsyVmmgJ/'
+# only official unofficial ruby-debug-base19 and linecache19 per https://gist.github.com/1333785
+source 'https://gems.gemfury.com/8n1rdTK8pezvcsyVmmgJ/' 
 
 gem 'rails', '3.1.3'
 
