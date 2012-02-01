@@ -7,7 +7,9 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 gem 'omniauth-ldap', :git => 'git://github.com/intridea/omniauth-ldap.git'
-gem 'ruby-debug19'
+gem 'linecache19', 'http://rubyforge.org/frs/download.php/75414/linecache19-0.5.13.gem'
+gem 'ruby-debug-base19', 'http://rubyforge.org/frs/download.php/75415/ruby-debug-base19-0.11.26.gem'
+gem 'ruby-debug19', :require => [ 'linecache19', 'ruby-debug-base19' ]
 
 # Gems used only for assets and not required
 # in production environments by default.
